@@ -2,14 +2,22 @@
 
 This README provides a concise overview of OctoAcme's project management processes. For detailed guidance, refer to the comprehensive process documentation:
 
-- [Project Management Overview](octoacme-project-management-overview.md)
-- [Project Initiation](octoacme-project-initiation.md)
-- [Project Planning](octoacme-project-planning.md)
-- [Execution & Tracking](octoacme-execution-and-tracking.md)
-- [Release & Deployment](octoacme-release-and-deployment.md)
-- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
-- [Risk Management & Communication](octoacme-risks-and-communication.md)
-- [Roles & Personas](octoacme-roles-and-personas.md)
+## Core Process Documentation
+- [Project Management Overview](octoacme-project-management-overview.md) - Principles, lifecycle, and key artifacts
+- [Project Initiation](octoacme-project-initiation.md) - Validate and authorize new work
+- [Project Planning](octoacme-project-planning.md) - Turn initiatives into actionable plans
+- [Execution & Tracking](octoacme-execution-and-tracking.md) - Day-to-day delivery and progress tracking
+- [Release & Deployment](octoacme-release-and-deployment.md) - Safe production releases
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) - Capture learnings
+- [Risk Management & Communication](octoacme-risks-and-communication.md) - Manage risks and stakeholder communications
+
+## Team Resources
+- [Roles & Personas](octoacme-roles-and-personas.md) - Detailed role definitions and responsibilities
+- [Team Onboarding Checklist](octoacme-team-onboarding-checklist.md) - Role-specific onboarding guidance
+- [Documentation Standards](octoacme-documentation-standards.md) - How to create and maintain project documentation
+
+## Additional Resources
+- [Open Pull Requests Status](open-pull-requests-status.md) - Current repository activity
 
 ---
 
@@ -23,7 +31,11 @@ Teams use GitHub Projects boards with columns (Backlog, Ready, In Progress, In R
 
 ## Roles, Communication, and Escalation
 
-OctoAcme projects are led by a **Project Manager** (coordinates delivery, schedules, risk, and communications) and a **Product Manager** (defines outcomes, prioritizes backlog, measures success). **Developers** implement features and collaborate on design and testability, while **QA/Testing** validates quality and acceptance criteria. **Stakeholders** provide input and approvals. Communication follows a structured cadence: weekly syncs between PM and Product Manager, twice-weekly standups for delivery teams, and monthly stakeholder updates. Escalation paths are tiered: team-level triage occurs in daily standups; the PM escalates to the Product Lead and dependent teams for cross-functional blockers; sponsor-level escalation handles business-impacting issues. Risks are tracked in a Risk Register with impact, likelihood, owner, and mitigation plans, reviewed and updated weekly.
+OctoAcme projects are led by a **Project Manager** (coordinates delivery, schedules, risk, and communications) and a **Product Manager** (defines outcomes, prioritizes backlog, measures success). The cross-functional delivery team includes **Developers** (implement features), **QA Lead** (validates quality and coordinates testing), **Release Manager** (coordinates deployments and go-live), **Business Analyst** (documents requirements and bridges business-technical teams), and **UX Designer** (creates user-centered designs). **Stakeholders** provide input and approvals. 
+
+Communication follows a structured cadence: weekly syncs between PM and Product Manager, twice-weekly standups for delivery teams, and monthly stakeholder updates. Clear handoff processes ensure smooth collaboration between design, development, QA, and release phases. 
+
+Escalation paths are tiered by issue type and severity: team-level triage occurs in daily standups; functional leads (Tech Lead, QA Lead, etc.) escalate to PM who coordinates with Product Lead and dependent teams; sponsor-level escalation handles business-critical issues. Risks are tracked in a Risk Register with impact, likelihood, owner, and mitigation plans, reviewed and updated weekly.
 
 ## Quality Assurance, Release Management, and Continuous Improvement
 
