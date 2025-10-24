@@ -13,9 +13,22 @@ After each sprint, release, or important milestone. Also after incidents.
 - Follow-up on previous action items
 
 ## Running a Retrospective
+
+### Participants
+Include all core team members with active roles in the sprint/release:
+- Project Manager (facilitator)
+- Product Manager
+- Developers
+- QA Lead
+- Release Manager (for release retrospectives)
+- UX Designer (if design work was involved)
+- Business Analyst (if requirements were significant)
+
+### Format
 - Timebox: 45–75 minutes depending on team size
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- Rotate facilitators to get different perspectives
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines
